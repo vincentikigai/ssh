@@ -1,0 +1,28 @@
+# oracle cloud instance : oci-rabbit-hole
+Host internet
+HostName 163.192.47.16
+User ubuntu
+IdentityFile C:\Users\vincent\OneDrive\Key\oci-rabbit-hole\ssh-key-2026-03-26.key
+ServerAliveInterval 120 
+ServerAliveCountMax 30
+
+# oracle cloud instance : oci-lobster-den
+Host simway
+HostName 163.192.8.82
+User ubuntu
+IdentityFile C:\Users\vincent\OneDrive\Key\oci-lobster-den\ssh-key-2026-03-30.key
+ServerAliveInterval 120 
+ServerAliveCountMax 30
+
+# oracle cloud instance : oci-lobster-den
+Host vin
+HostName 163.192.8.82
+User vincent
+IdentityFile C:\Users\vincent\OneDrive\Key\oci-lobster-den\ssh-key-2026-03-30.key
+ServerAliveInterval 120 
+ServerAliveCountMax 30
+
+Host pi
+HostName 192.168.50.240
+User vincent
+PreferredAuthentications password

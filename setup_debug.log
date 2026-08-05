@@ -1,0 +1,42 @@
+[2026-08-05 20:19:46] [DEBUG] --------------------------------------------------
+[2026-08-05 20:19:46] [DEBUG] Starting SSH Setup Script Execution
+[2026-08-05 20:19:47] [DEBUG] Queried active desktop user: vincent
+[2026-08-05 20:19:47] [DEBUG] Derived home directory: C:\Users\vincent
+[2026-08-05 20:19:47] [DEBUG] Executing script from path: C:\Users\vincent\OneDrive\ssh\windows-setup.ps1
+[2026-08-05 20:19:47] [WARN] Failed setting ACL on C:\Users\vincent\.ssh: Method invocation failed because [System.IO.DirectoryInfo] does not contain a method named 'GetAccessControl'.
+[2026-08-05 20:19:47] [WARN] Failed setting ACL on C:\Users\vincent\.ssh\config_local: Method invocation failed because [System.IO.FileInfo] does not contain a method named 'GetAccessControl'.
+[2026-08-05 20:19:47] [WARN] Failed setting ACL on C:\Users\vincent\OneDrive\Key\oci-rabbit-hole\ssh-key-2026-03-26.key: Method invocation failed because [System.IO.FileInfo] does not contain a method named 'GetAccessControl'.
+[2026-08-05 20:19:47] [WARN] Failed setting ACL on C:\Users\vincent\OneDrive\Key\oci-lobster-den\ssh-key-2026-03-30.key: Method invocation failed because [System.IO.FileInfo] does not contain a method named 'GetAccessControl'.
+[2026-08-05 20:19:47] [WARN] Failed setting ACL on C:\Users\vincent\OneDrive\Key\oci-lobster-den\ssh-key-2026-03-30.key: Method invocation failed because [System.IO.FileInfo] does not contain a method named 'GetAccessControl'.
+[2026-08-05 20:19:47] [WARN] Failed setting ACL on C:\Users\vincent\OneDrive\Key\oci-lobster-den\ssh-key-2026-03-30.key: Method invocation failed because [System.IO.FileInfo] does not contain a method named 'GetAccessControl'.
+[2026-08-05 20:19:47] [WARN] Failed setting ACL on C:\Users\vincent\OneDrive\Key\oci-rabbit-hole\ssh-key-2026-03-26.key: Method invocation failed because [System.IO.FileInfo] does not contain a method named 'GetAccessControl'.
+[2026-08-05 20:19:47] [INFO] Symbolic link already points to C:\Users\vincent\OneDrive\ssh\config
+[2026-08-05 20:19:47] [SUCCESS] Setup finished successfully! OpenSSH permissions verified.
+[2026-08-05 20:21:02] [DEBUG] --------------------------------------------------
+[2026-08-05 20:21:02] [DEBUG] Starting SSH Setup Script Execution
+[2026-08-05 20:21:02] [DEBUG] Queried active desktop user: vincent
+[2026-08-05 20:21:02] [DEBUG] Derived home directory: C:\Users\vincent
+[2026-08-05 20:21:02] [DEBUG] Executing script from path: C:\Users\vincent\OneDrive\ssh\windows-setup.ps1
+[2026-08-05 20:21:02] [WARN] Failed setting ACL on C:\Users\vincent\.ssh: Method invocation failed because [System.IO.DirectoryInfo] does not contain a method named 'GetAccessControl'.
+[2026-08-05 20:21:02] [WARN] Failed setting ACL on C:\Users\vincent\.ssh\config_local: Method invocation failed because [System.IO.FileInfo] does not contain a method named 'GetAccessControl'.
+[2026-08-05 20:21:02] [WARN] Failed setting ACL on C:\Users\vincent\OneDrive\Key\oci-rabbit-hole\ssh-key-2026-03-26.key: Method invocation failed because [System.IO.FileInfo] does not contain a method named 'GetAccessControl'.
+[2026-08-05 20:21:02] [WARN] Failed setting ACL on C:\Users\vincent\OneDrive\Key\oci-lobster-den\ssh-key-2026-03-30.key: Method invocation failed because [System.IO.FileInfo] does not contain a method named 'GetAccessControl'.
+[2026-08-05 20:21:02] [WARN] Failed setting ACL on C:\Users\vincent\OneDrive\Key\oci-lobster-den\ssh-key-2026-03-30.key: Method invocation failed because [System.IO.FileInfo] does not contain a method named 'GetAccessControl'.
+[2026-08-05 20:21:02] [WARN] Failed setting ACL on C:\Users\vincent\OneDrive\Key\oci-lobster-den\ssh-key-2026-03-30.key: Method invocation failed because [System.IO.FileInfo] does not contain a method named 'GetAccessControl'.
+[2026-08-05 20:21:02] [WARN] Failed setting ACL on C:\Users\vincent\OneDrive\Key\oci-rabbit-hole\ssh-key-2026-03-26.key: Method invocation failed because [System.IO.FileInfo] does not contain a method named 'GetAccessControl'.
+[2026-08-05 20:21:02] [INFO] Symbolic link already points to C:\Users\vincent\OneDrive\ssh\config
+[2026-08-05 20:21:02] [SUCCESS] Setup finished successfully! OpenSSH permissions verified.
+[2026-08-05 20:33:41] [DEBUG] --------------------------------------------------
+[2026-08-05 20:33:41] [DEBUG] Starting SSH Setup Script Execution
+[2026-08-05 20:33:41] [DEBUG] Queried active desktop user: vincent
+[2026-08-05 20:33:41] [DEBUG] Derived home directory: C:\Users\vincent
+[2026-08-05 20:33:41] [DEBUG] Executing script from path: C:\Users\vincent\OneDrive\ssh\windows-setup.ps1
+[2026-08-05 20:33:41] [DEBUG] Locked permissions on: C:\Users\vincent\.ssh for user 'vincent', SYSTEM, Administrators
+[2026-08-05 20:33:41] [DEBUG] Locked permissions on: C:\Users\vincent\.ssh\config_local for user 'vincent', SYSTEM, Administrators
+[2026-08-05 20:33:41] [DEBUG] Locked permissions on: C:\Users\vincent\OneDrive\Key\oci-rabbit-hole\ssh-key-2026-03-26.key for user 'vincent', SYSTEM, Administrators
+[2026-08-05 20:33:41] [DEBUG] Locked permissions on: C:\Users\vincent\OneDrive\Key\oci-lobster-den\ssh-key-2026-03-30.key for user 'vincent', SYSTEM, Administrators
+[2026-08-05 20:33:41] [DEBUG] Locked permissions on: C:\Users\vincent\OneDrive\Key\oci-lobster-den\ssh-key-2026-03-30.key for user 'vincent', SYSTEM, Administrators
+[2026-08-05 20:33:41] [DEBUG] Locked permissions on: C:\Users\vincent\OneDrive\Key\oci-lobster-den\ssh-key-2026-03-30.key for user 'vincent', SYSTEM, Administrators
+[2026-08-05 20:33:41] [DEBUG] Locked permissions on: C:\Users\vincent\OneDrive\Key\oci-rabbit-hole\ssh-key-2026-03-26.key for user 'vincent', SYSTEM, Administrators
+[2026-08-05 20:33:41] [INFO] Symbolic link already points to C:\Users\vincent\OneDrive\ssh\config
+[2026-08-05 20:33:41] [SUCCESS] Setup finished successfully! OpenSSH permissions verified.
