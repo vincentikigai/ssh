@@ -18,7 +18,7 @@ ServerAliveCountMax 30
 Host vin
 HostName 163.192.8.82
 User vincent
-IdentityFile C:\Users\vincent\OneDrive\Key\oci-lobster-den\ssh-key-2026-03-30.key
+IdentityFile /Users/vincent/OneDrive/Key/oci-lobster-den/ssh-key-2026-03-30.key
 ServerAliveInterval 120 
 ServerAliveCountMax 30
 
