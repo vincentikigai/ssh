@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env bash
+#!/usr/bin/env bash
 set -euo pipefail
 
 # 1. Detect OneDrive path based on OS
@@ -22,8 +22,18 @@ mkdir -p "$HOME/.ssh"
 chmod 700 "$HOME/.ssh"
 
 # 3. Create the local override file if it doesn't exist
-touch "$HOME/.ssh/config_local"
-chmod 600 "$HOME/.ssh/config_local"
+# If an existing file is not writable (owned by root), we'll detect that
+# and print a clear message so the user can fix ownership with sudo.
+if [ ! -e "$HOME/.ssh/config_local" ]; then
+    touch "$HOME/.ssh/config_local"
+    chmod 600 "$HOME/.ssh/config_local"
+else
+    if [ ! -w "$HOME/.ssh/config_local" ]; then
+        echo "Error: $HOME/.ssh/config_local exists but is not writable by you."
+        echo "Run: sudo chown $(whoami):$(id -gn) $HOME/.ssh/config_local && chmod 600 $HOME/.ssh/config_local"
+        exit 1
+    fi
+fi
 
 # 4. Backup existing config if it exists (file or broken symlink)
 if [ -e "$HOME/.ssh/config" ] || [ -L "$HOME/.ssh/config" ]; then
